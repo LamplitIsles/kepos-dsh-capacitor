@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">KeposAI</string>
+    <string name="title_activity_main">KeposAI</string>
+    <string name="package_name">ai.kepos.companion</string>
+    <string name="custom_url_scheme">ai.kepos.companion</string>
+</resources>
