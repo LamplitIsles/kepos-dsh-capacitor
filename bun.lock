@@ -5,6 +5,7 @@
     "": {
       "name": "kepos-ai",
       "dependencies": {
+        "@anuradev/capacitor-background-mode": "8.1.0",
         "@capacitor/android": "^8.5.0",
         "@capacitor/camera": "^8.2.3",
         "@capacitor/core": "^8.5.0",
@@ -16,6 +17,8 @@
     },
   },
   "packages": {
+    "@anuradev/capacitor-background-mode": ["@anuradev/capacitor-background-mode@8.1.0", "", { "peerDependencies": { "@capacitor/core": ">=8.0.0" } }, "sha512-R1mOsfhbHcu2XW6Y41+OKdTA2yI/T93pbv591lWGUuc7a78grwHF2GLoK11Fc7vwqCiWk/C7t7ZEX9hUGP1X2w=="],
+
     "@capacitor/android": ["@capacitor/android@8.5.0", "", { "peerDependencies": { "@capacitor/core": "^8.5.0" } }, "sha512-Rb3prJeQiTp0pQhSSOReJuG9VgibOGMG4ECs+UhMwr6TCCHZ3NCZO811bDA0HxD0xrT/gCrJAsY5yfEATu84JQ=="],
 
     "@capacitor/camera": ["@capacitor/camera@8.2.3", "", { "peerDependencies": { "@capacitor/core": ">=8.0.0" } }, "sha512-x9Pl5UgvrZyU5Hl53Fly9f6u019hhgN+gSdDgi+WygxK9DUVuYKjigplOXz3VJQ9m8ttUSjqN/rAC3JVnyEzcA=="],

@@ -9,6 +9,7 @@
     "android:install": "bun run android:apk && adb install -r android/app/build/outputs/apk/debug/app-debug.apk"
   },
   "dependencies": {
+    "@anuradev/capacitor-background-mode": "8.1.0",
     "@capacitor/android": "^8.5.0",
     "@capacitor/camera": "^8.2.3",
     "@capacitor/core": "^8.5.0"
