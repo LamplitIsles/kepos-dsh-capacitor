@@ -5,7 +5,7 @@ const config: CapacitorConfig = {
   appName: "KeposAI",
   webDir: "www",
   server: {
-    url: "http://127.0.0.1:13080/companion",
+    url: "http://127.0.0.1:13080",
     cleartext: true,
     allowNavigation: ["127.0.0.1"]
   }

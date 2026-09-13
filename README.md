@@ -1,7 +1,7 @@
 # KeposAI
 
-An Android Capacitor entry app for the Kepos Companion Service running on the
-same device at `http://127.0.0.1:13080/companion`.
+An Android Capacitor entry app for the Kepos local web application running on
+the same device at `http://127.0.0.1:13080`.
 
 ## Build and install
 
