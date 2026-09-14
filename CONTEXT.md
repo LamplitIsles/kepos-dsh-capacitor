@@ -2,5 +2,5 @@
 
 ## Glossary
 
-- **KeposAI** — The Android companion entry application.
-- **Kepos Companion Service** — The local service hosted at `127.0.0.1:13080` that provides KeposAI's interface.
+- **KeposAI** — The foreground-only Android launcher for the Kepos local web application on the same device. It owns opening that application, not its user interface, transport, session lifecycle, or background persistence.
+- **Kepos local web application** — The application served at `http://prod-lamplit.localhost:17480/` and rendered inside KeposAI.

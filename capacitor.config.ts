@@ -5,9 +5,9 @@ const config: CapacitorConfig = {
   appName: "KeposAI",
   webDir: "www",
   server: {
-    url: "http://127.0.0.1:13080/companion",
+    url: "http://prod-lamplit.localhost:17480/",
     cleartext: true,
-    allowNavigation: ["127.0.0.1"]
+    allowNavigation: ["prod-lamplit.localhost"]
   }
 };
 
